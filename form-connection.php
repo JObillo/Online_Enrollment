@@ -23,9 +23,13 @@ $mother_first_name = $_POST['mother_first_name'] ?? null;
 $mother_middle_name = $_POST['mother_middle_name'] ?? null;
 $mother_occupation = $_POST['mother_occupation'] ?? null;
 $mother_phone_no = $_POST['mother_phone_no'] ?? null;
+$last_school_attended = $_POST['last_school_attended'] ?? null;
 $strand = $_POST['strand'] ?? null;
 $year_graduated = $_POST['year_graduated'] ?? null;
 $general_average = $_POST['general_average'] ?? null;
+$transfer_last_school = $_POST['transfer_last_school'] ?? null;
+$transfer_last_year = $_POST['transfer_last_year'] ?? null;
+$transfer_course = $_POST['transfer_course'] ?? null;
 $year_level = $_POST['year_level'] ?? null; 
 $semester = $_POST['semester'] ?? null;
 $course_name = $_POST['course_name'] ?? null; 
@@ -75,12 +79,13 @@ try {
     $stmt3->execute();
 
     // Insert into education table
-    $stmt4 = $conn->prepare("INSERT INTO education (student_id, strand, year_graduated, general_average) VALUES (?, ?, ?, ?)");
+    $stmt4 = $conn->prepare("INSERT INTO education (student_id, last_school_attended, strand, year_graduated, general_average, transfer_last_school, transfer_last_year, transfer_course) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
     if (!$stmt4) {
         throw new Exception("Prepare failed: " . $conn->error);
     }
-    $stmt4->bind_param("isss", $student_id, $strand, $year_graduated, $general_average);
+    $stmt4->bind_param("isssssss", $student_id, $last_school_attended, $strand, $year_graduated, $general_average, $transfer_last_school, $transfer_last_year, $transfer_course);
     $stmt4->execute();
+
 
     // Insert into courseenrollment table
     $stmt5 = $conn->prepare("INSERT INTO courseenrollment (student_id, year_level, semester, course_name) VALUES (?, ?, ?, ?)");

@@ -103,23 +103,30 @@
             <br> <br>
 
             <h3>Education</h3>
-            <label for="strand">Strand</label>
-            <input type="text" id="strand" name="strand" placeholder="SHS Strand" required>
+            <h4>Senior Highschool</h4>
+            <label for="last_school_attended"></label>
+            <input type="text" id="last_school_attended" name="last_school_attended" placeholder="Last School Attended" >
+
+            <label for="strand"></label>
+            <input type="text" id="strand" name="strand" placeholder="SHS Strand" required> <br> <br>
             
-            <label for="year_graduated">Year Graduated</label>
+            <label for="year_graduated"></label>
             <input type="text" id="year_graduated" name="year_graduated" placeholder="Year Graduated" required>
             
-            <label for="general_average">General Average</label>
-            <input type="text" id="general_average" name="general_average" placeholder="General Average" required> <br> <br>
+            <label for="general_average"></label>
+            <input type="text" id="general_average" name="general_average" placeholder="General Average" required>
+             <br>
+             
+             <h4>Transferee</h4>
+             <label for="transfer_last_school"></label>
+             <input type="text" id="transfer_last_school" name="transfer_last_school" placeholder="Last School Attended">
 
-            <label for="transfer_last_school">Last School Attended</label>
-            <input type="text" id="transfer_last_school" name="transfer_last_school" placeholder="Last School Attended" >
-            
-            <label for="transfer_last_year">Last School Year</label>
-            <input type="text" id="transfer_last_year" name="transfer_last_year" placeholder="Last School Year" >
-            
-            <label for="transfer_course">Course</label>
-            <input type="text" id="transfer_course" name="transfer_course" placeholder="Course" > <br> <br>
+             <label for="transfer_last_year"></label>
+             <input type="text" id="transfer_last_year" name="transfer_last_year" placeholder="Last School Year">
+            <br> <br>
+             <label for="transfer_course"></label>
+             <input type="text" id="transfer_course" name="transfer_course" placeholder="Course">
+             
 
             <h3>Choose Course</h3>
             <label for="year_level">Year Level</label>
