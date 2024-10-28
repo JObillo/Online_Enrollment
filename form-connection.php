@@ -1,5 +1,5 @@
 <?php
-// Define variables using correct POST keys
+
 $last_name = $_POST['last_name'] ?? null;
 $first_name = $_POST['first_name'] ?? null;
 $middle_name = $_POST['middle_name'] ?? null;
@@ -8,7 +8,7 @@ $gender = $_POST['gender'] ?? null;
 $religion = $_POST['religion'] ?? null;
 $civil_status = $_POST['civil_status'] ?? null;
 $email = $_POST['email'] ?? null;
-$student_phoneNo = $_POST['student_phoneNo'] ?? null;  // Now in students table
+$student_phoneNo = $_POST['student_phoneNo'] ?? null; 
 $barangay = $_POST['barangay'] ?? null;
 $municipal = $_POST['municipal'] ?? null;
 $province = $_POST['province'] ?? null;
@@ -26,15 +26,15 @@ $mother_phone_no = $_POST['mother_phone_no'] ?? null;
 $strand = $_POST['strand'] ?? null;
 $year_graduated = $_POST['year_graduated'] ?? null;
 $general_average = $_POST['general_average'] ?? null;
-$year_level = $_POST['year_level'] ?? null; // Move year_level here
-$semester = $_POST['semester'] ?? null; // Move semester here
-$course_name = $_POST['course_name'] ?? null; // Move course_name here
+$year_level = $_POST['year_level'] ?? null; 
+$semester = $_POST['semester'] ?? null;
+$course_name = $_POST['course_name'] ?? null; 
 
 // Database connection
-$servername = "localhost"; // Your database server
-$username = "root"; // Your database username
-$password = "2024"; // Your database password
-$dbname = "enrollment_form"; // Your database name
+$servername = "localhost"; 
+$username = "root"; 
+$password = "2024"; 
+$dbname = "enrollment_form"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
