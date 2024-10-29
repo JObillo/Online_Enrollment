@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <h1>Online Enrollment for Monarch College kalbo</h1> <br>
+        <h1>Online Enrollment for Monarch College</h1> <br>
     </header>
 
     <div class="form-body">
