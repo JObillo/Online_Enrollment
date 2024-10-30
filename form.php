@@ -14,7 +14,7 @@
 
     <div class="form-body">
         <form action="form-connection.php" method="post">
-            <h3>Basic Information</h3>
+            <h3 class="box1">Basic Information</h3>
             <label for="last_name">Last name</label>
             <input type="text" id="last_name" name="last_name" required>
             
