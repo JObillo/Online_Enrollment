@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class="header">
@@ -59,7 +61,7 @@
             <h3>Address</h3>
             <label for="barangay">Barangay</label>
             <input type="text" id="barangay" name="barangay" required>
-            
+        
             <label for="municipal">Municipal</label>
             <input type="text" id="municipal" name="municipal" required> <br> <br>
             
