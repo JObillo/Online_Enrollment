@@ -50,7 +50,7 @@
             <label for="other">Other</label>
             <br> <br>
 
-            <h3>Contact Information</h3>
+            <h3 class="box1">Contact Information</h3>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
             
@@ -58,7 +58,7 @@
             <input type="tel" id="student_phoneNo" name="student_phoneNo" required>
             <br> <br>
 
-            <h3>Address</h3>
+            <h3 class="box1">Address</h3>
             <label for="barangay">Barangay</label>
             <input type="text" id="barangay" name="barangay" required>
         
@@ -71,7 +71,7 @@
             <label for="country">Country</label>
             <input type="text" id="country" name="country" required>
 
-            <h3>Parents</h3>
+            <h3 class="box1">Parents</h3>
             <label for="father_last_name">Father Last Name</label>
             <input type="text" id="father_last_name" name="father_last_name" placeholder="Lastname" required>
             
@@ -104,7 +104,7 @@
             <input type="tel" id="mother_phone_no" name="mother_phone_no" required>
             <br> <br>
 
-            <h3>Education</h3>
+            <h3 class="box">Education</h3>
             <h4>Senior Highschool</h4>
             <label for="last_school_attended"></label>
             <input type="text" id="last_school_attended" name="last_school_attended" placeholder="Last School Attended" >
@@ -119,7 +119,7 @@
             <input type="text" id="general_average" name="general_average" placeholder="General Average" required>
              <br>
              
-             <h4>Transferee</h4>
+             <h4 class="box1">Transferee</h4>
              <label for="transfer_last_school"></label>
              <input type="text" id="transfer_last_school" name="transfer_last_school" placeholder="Last School Attended">
 
@@ -130,7 +130,7 @@
              <input type="text" id="transfer_course" name="transfer_course" placeholder="Course">
              
 
-            <h3>Choose Course</h3>
+            <h3 class="box1">Choose Course</h3>
             <label for="year_level">Year Level</label>
             <select id="year_level" name="year_level" required>
                 <option value="1st">1st Year</option>
