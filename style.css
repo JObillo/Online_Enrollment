@@ -1,17 +1,32 @@
-header {
-    text-align: center;
+.header {
+    display: flex;                
+    align-items: center;          
+    justify-content: center;    
+    padding: 20px;                 
+    background-color: #3B82F6;   
+    color: white;                
+    border-radius: 8px; 
 }
-
+h1 {
+    margin: 0;            
+    font-size: 3em;        
+    text-align: center; 
+}
 
 .form-body {
-    width: 80%;  /* Adjust to control the width */
-    max-width: 1000px;  /* Matches the width in the initial design */
-    background-color: rgba(239, 248, 255, 1);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;  /* Optional to add space at the top and bottom */
+    display: flex;                
+    align-items: center;          
+    justify-content: center;    
+    padding: 20px;                 
+    background-color: rgba(239, 248, 255, 1);                 
+    border-radius: 8px; 
+    width: 88%;
+    margin-left:55px;
+    margin-top: 10px;
+    border: 2px solid black;
 }
+
+
 
 
 .box1 {

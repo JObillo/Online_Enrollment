@@ -8,9 +8,9 @@
     
 </head>
 <body>
-    <header class="header">
+    <div class="header">
         <h1>Online Enrollment for Monarch College</h1> <br>
-    </header>
+    </div>
 
     <div class="form-body">
         <form action="form-connection.php" method="post">
@@ -104,7 +104,7 @@
             <input type="tel" id="mother_phone_no" name="mother_phone_no" required>
             <br> <br>
 
-            <h3 class="box">Education</h3>
+            <h3 class="box1">Education</h3>
             <h4>Senior Highschool</h4>
             <label for="last_school_attended"></label>
             <input type="text" id="last_school_attended" name="last_school_attended" placeholder="Last School Attended" >
